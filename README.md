@@ -1,3 +1,14 @@
+GROUP 7 MEMBERS
+Ardhra VS   CCE23CS027
+Arya Sudheer CCE23CS038
+Ashna Tony  CCE23CS039
+Ashwin Antony Nelson  CCE23CS040
+Austin Shajan   CCE23CS041
+Blessy CB   CCE23CS042
+
+
+
+
 # Sustainable Waste Collection Routing
 
 **Group:** Fill in your group number and members  
