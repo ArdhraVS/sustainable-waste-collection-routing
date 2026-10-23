@@ -1,0 +1,136 @@
+{
+  "depot": "Depot",
+  "vehicle_capacity": 100,
+  "bins": [
+    {
+      "name": "Bin A",
+      "location": "A",
+      "fill_percent": 90,
+      "waste_kg": 35
+    },
+    {
+      "name": "Bin B",
+      "location": "B",
+      "fill_percent": 70,
+      "waste_kg": 25
+    },
+    {
+      "name": "Bin C",
+      "location": "C",
+      "fill_percent": 45,
+      "waste_kg": 20
+    },
+    {
+      "name": "Bin D",
+      "location": "D",
+      "fill_percent": 95,
+      "waste_kg": 30
+    },
+    {
+      "name": "Bin E",
+      "location": "E",
+      "fill_percent": 20,
+      "waste_kg": 10
+    }
+  ],
+  "roads": [
+    {
+      "from": "Depot",
+      "to": "A",
+      "cost": 4,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "Depot",
+      "to": "B",
+      "cost": 3,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "Depot",
+      "to": "C",
+      "cost": 6,
+      "condition": "wet",
+      "blocked": false
+    },
+    {
+      "from": "Depot",
+      "to": "D",
+      "cost": 7,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "Depot",
+      "to": "E",
+      "cost": 5,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "cost": 2,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "cost": 3,
+      "condition": "wet",
+      "blocked": false
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "cost": 5,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "cost": 2,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "cost": 4,
+      "condition": "rough",
+      "blocked": false
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "cost": 3,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "cost": 2,
+      "condition": "wet",
+      "blocked": false
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "cost": 4,
+      "condition": "good",
+      "blocked": false
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "cost": 2,
+      "condition": "good",
+      "blocked": false
+    }
+  ]
+}
